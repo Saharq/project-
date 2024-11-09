@@ -6,7 +6,7 @@ import string
 data_bansos = dict()
 
 while True:
-    os.system("cls")  # Membersihkan layar setiap kali memasukkan data baru
+    os.system("cls")
 
     keyFinal = "".join(random.choice(string.ascii_uppercase) for _ in range(3))
     
